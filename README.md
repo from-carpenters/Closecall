@@ -3,7 +3,7 @@ A site that allows construction operatives to raise health and safety issue on s
 
 
 # What I learned
-Responsive design: Making sure the site accomodates all type of users and devices
+Responsive design: Making sure the site accomodates all type of users and devices<br>
 Front end framework such as Bootstrap and SASS
 JavaScript library jQuery
 
