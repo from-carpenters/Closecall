@@ -1,0 +1,229 @@
+{
+    "observations" : [
+
+        {
+            "obs_id"            : 0,
+            "observer_name"     : "Shaunna Farley",
+            "images"            : [
+                "./images/observation/obs0-a.jpeg",
+                "./images/observation/obs0-b.jpeg",
+                "./images/observation/obs0-c.jpeg",
+                "./images/observation/obs0-d.jpeg"
+            ],
+            "company"           : "Graham construction",
+            "location"          : "Forecourt",
+            "project"           : "Ealing Broadway",
+            "date"              : "03-10-20",
+            "status"            : "Closed",
+            "observation_type"  : "At-risk",
+            "observation_category"  : "Safety",
+            "contractor_involved"   : "Unknown",
+            "injury_prevented"      : "Cuts and Bruises",
+            "non_injury_prevented"  : "Lost time",
+            "observation_details"   : "Piece of rusty metal rod and 2 bricks were on the ground, almost causing someone to trip",
+            "action_taken"          : "Metal rod was taken up and placed in the ton bag for disposal and the bricks put in along with others"
+        },
+
+        {
+            "obs_id"            : 1,
+            "observer_name"     : "Sean Curran",
+            "images"            : [
+                "./images/observation/obs1-a.jpg",
+                "./images/observation/obs1-b.jpg",
+                "./images/observation/obs1-c.jpg",
+                "./images/observation/obs1-d.jpg"
+            ],
+            "company"           : "Network Rail",
+            "location"          : "Platform 1",
+            "project"           : "Ealing Broadway",
+            "date"              : "15-09-20",
+            "status"            : "Closed",
+            "observation_type"  : "At-risk",
+            "observation_category"  : "Safety",
+            "contractor_involved"   : "Graham Construction",
+            "injury_prevented"      : "Fractures",
+            "non_injury_prevented"  : "N/A",
+            "observation_details"   : "Unsafe working at height practices while working around lift shaft entrance. No fall restraints in place to stop operator falling down the lift shaft.",
+            "action_taken"          : "All works stopped until scaffolding boarding has been installed. All Ballycommon operatives trained for harness competency."
+        },
+
+        {
+            "obs_id"            : 2,
+            "observer_name"     : "Matt Todd",
+            "images"            : [
+                "./images/observation/obs2-a.jpg",
+                "./images/observation/obs2-b.jpg"
+            ],
+            "company"           : "Graham Construction",
+            "location"          : "Platform 1",
+            "project"           : "Ealing Broadway",
+            "date"              : "18-09-20",
+            "status"            : "Closed",
+            "observation_type"  : "At-risk",
+            "observation_category"  : "Safety",
+            "contractor_involved"   : "Graham Construction",
+            "injury_prevented"      : "Cuts and bruises",
+            "non_injury_prevented"  : "Lost time",
+            "observation_details"   : "Line marker spray left on platform behind barriers.",
+            "action_taken"          : "Spray was removed and put in COSSH store."
+            
+        },
+
+        
+        {
+            "obs_id"            : 3,
+            "observer_name"     : "Blank",
+            "images"            : [
+                "./images/observation/obs3.jpeg"
+            ],
+            "company"           : "Levismar",
+            "location"          : "Roof of sub station",
+            "project"           : "West Ealing",
+            "date"              : "13-09-20",
+            "status"            : "Closed",
+            "observation_type"  : "good-practice",
+            "observation_category"  : "Safety",
+            "contractor_involved"   : "Levismar",
+            "injury_prevented"      : "Cuts and bruises",
+            "non_injury_prevented"  : "Lost time",
+            "observation_details"   : "Free standing ladder tied at 2 points at the top",
+            "action_taken"          : "Blank"
+        },
+
+        {
+            "obs_id"            : 4,
+            "observer_name"     : "Ian Lomas",
+            "images"            : [
+                "./images/observation/obs4-a.jpeg",
+                "./images/observation/obs4-b.jpeg"
+            ],
+            "company"           : "Graham Construction",
+            "location"          : "West Ealing",
+            "project"           : "West Ealing",
+            "date"              : "23-09-20",
+            "status"            : "Closed",
+            "observation_type"  : "good-practice",
+            "observation_category"  : "Safety",
+            "contractor_involved"   : "Graham Construction",
+            "injury_prevented"      : "N/A",
+            "non_injury_prevented"  : "Plant/Equipment damage",
+            "observation_details"   : "Cables across site where machinery travel, not protected. Cable barriers provide safety for cables",
+            "action_taken"          : "Blank"
+        },
+
+        {
+            "obs_id"            : 5,
+            "observer_name"     : "Hussain Abrar",
+            "images"            : [
+                "./images/observation/obs5.jpeg"
+            ],
+            "company"           : "Graham Construction",
+            "location"          : "Ealing Broadway",
+            "project"           : "Ealing Broadway",
+            "date"              : "22-09-20",
+            "status"            : "Closed",
+            "observation_type"  : "At-risk",
+            "observation_category"  : "Safety",
+            "contractor_involved"   : "Graham Construction",
+            "injury_prevented"      : "Burns",
+            "non_injury_prevented"  : "Lost time",
+            "observation_details"   : "Ballycommon operatives concreting 5no bases for canopy steel column. Operative were seen not wearing concrete overall protection",
+            "action_taken"          : "Operatives instructed to stop concreting and wear correct PPE"
+        },
+
+        {
+            "obs_id"            : 6,
+            "observer_name"     : "Hussain Abrar",
+            "images"            : [
+                "./images/observation/obs6-a.jpeg",
+                "./images/observation/obs6-b.jpeg"
+            ],
+            "company"           : "Graham Construction",
+            "location"          : "Platform 2",
+            "project"           : "Ealing Broadway",
+            "date"              : "22-09-20",
+            "status"            : "Closed",
+            "observation_type"  : "good-practice",
+            "observation_category"  : "Safety",
+            "contractor_involved"   : "Graham Construction",
+            "injury_prevented"      : "Eye injury",
+            "non_injury_prevented"  : "Lost time",
+            "observation_details"   : "Barriers safely secured and debri netting installed over ton bags",
+            "action_taken"          : "Blank"
+        },
+
+
+        {
+            "obs_id"            : 7,
+            "observer_name"     : "Florence Merret",
+            "images"            : [
+                "./images/observation/obs7.jpeg"
+            ],
+            "company"           : "Graham Construction",
+            "location"          : "Acton Mainline",
+            "project"           : "Acton Mainline",
+            "date"              : "28-09-20",
+            "status"            : "Closed",
+            "observation_type"  : "At-risk",
+            "observation_category"  : "Safety",
+            "contractor_involved"   : "Amco Giffen",
+            "injury_prevented"      : "Cuts and bruises",
+            "non_injury_prevented"  : "Theft",
+            "observation_details"   : "Amco Giffen left the gate of their cabin wide open, which is situated Horn Lane public footpath, resulting in the potential for slips/trip/hazard to the passing public",
+            "action_taken"          : "Operatives of Amco Giffen must ensure the gate of their cabin is always firmly closed to prevent any harm to the general public"
+        },
+
+        {
+            "obs_id"            : 8,
+            "observer_name"     : "William Youngman",
+            "images"            : [
+                "./images/observation/obs8-a.jpg",
+                "./images/observation/obs8-b.jpg"
+            ],
+            "company"           : "Graham Construction",
+            "location"          : "West Ealing",
+            "project"           : "West Ealing",
+            "date"              : "05-10-20",
+            "status"            : "Closed",
+            "observation_type"  : "At-risk",
+            "observation_category"  : "Safety",
+            "contractor_involved"   : "Graham Construction",
+            "injury_prevented"      : "Cuts and bruises",
+            "non_injury_prevented"  : "N/A",
+            "observation_details"   : "Damaged barriers being used at site walkway",
+            "action_taken"          : "Barriers replaced with undamaged barriers"
+        },
+
+        {
+            "obs_id"            : 9,
+            "observer_name"     : "Pawel Serafin",
+            "images"            : [
+                "./images/observation/obs9-a.jpeg",
+                "./images/observation/obs9-b.jpeg"
+            ],
+            "company"           : "Graham Construction",
+            "location"          : "West Ealing",
+            "project"           : "West Ealing",
+            "date"              : "07-10-20",
+            "status"            : "Closed",
+            "observation_type"  : "At-risk",
+            "observation_category"  : "Safety",
+            "contractor_involved"   : "3rd Party",
+            "injury_prevented"      : "Sprains or strains",
+            "non_injury_prevented"  : "Material damage",
+            "observation_details"   : "Inappropiate storage of materials causing trip hazard near stairs",
+            "action_taken"          : "Materials removed to the storage area. Operatives briefed on importance of good housekeeping"
+        }
+        
+        
+        
+        
+
+        
+      
+      
+      
+    ]
+    
+}
+

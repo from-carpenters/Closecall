@@ -1,0 +1,148 @@
+{
+    "incidents" : [
+
+        {
+            "incident_id"            : 0,
+            "date"                   : "10-10-20",
+            "project"                : "Ealing Broadway",
+            "location"               : "Platform 4",
+            "weather_condition"      : "Dry",
+            "group"                  : "Subcontractor staff",
+            "person_involved"        : "John David",
+            "contractor_involved"    : "General Operations Ltd",
+            "reported_by"            : "John Daniel",
+            "company"                : "Main Contractor Ltd",
+            "what_was_the_individual_doing"        : "Operating tower crane ",
+            "how_was_the_individual_injured"       : "Following extensive investigation it was found that indiviudal was injured due to poor crane set up. They did not follow temporary work design",
+            "what_was_the_cause_of_the_accident"   : "Lack of adherence to temporary work design for the crane",
+            "what_was_the_extent_of_injury"        : "large injury to the head and right arm sustained",
+            "images"            : [
+                "./images/incident/inc0-a.jpg",
+                "./images/incident/inc0-b.jpg",
+                "./images/incident/inc0-c.jpg"
+            ]
+        },
+
+        {
+            "incident_id"            : 1,
+            "date"                   : "09-08-20",
+            "project"                : "West Ealing",
+            "location"               : "Platform 2",
+            "weather_condition"      : "Wet",
+            "group"                  : "Subcontractor staff",
+            "person_involved"        : "Mike Daniel, Jack Daniel, John.C",
+            "contractor_involved"    : "All works scaffoldings Ltd",
+            "reported_by"            :"David Dune",
+            "company"                : "Main Contractor Ltd",
+            "what_was_the_individual_doing"         : "Installing 215mm thick blockwall along external facade face of station building",
+            "how_was_the_individual_injured"        : "Site investigation along with witness statements has revealed that they have been injured to poor erection of scaffold platform, which was signed off at the time",
+            "what_was_the_cause_of_the_accident"    : "Unstable footing of scaffold platform",
+            "what_was_the_extent_of_injury"         : "one operative has suffered severe fracture to their right leg and both arms and two other operative had life changing back injuries.",
+            "images"            : [
+                "./images/incident/inc1-a.jpg",
+                "./images/incident/inc1-b.jpg",
+                "./images/incident/inc1-c.jpg"
+            ]
+        },
+
+        {
+            "incident_id"            : 2,
+            "date"                   : "08-07-20",
+            "project"                : "West Ruislip",
+            "location"               : "Platform 2",
+            "weather_condition"      : "Sunny",
+            "group"                  : "Subcontractor staff",
+            "person_involved"        : "Daivd Harris",
+            "contractor_involved"    : "Electrical works Ltd",
+            "reported_by"            :"John Smith",
+            "company"                : "Main contractors Ltd",
+            "what_was_the_individual_doing"         : "Repairing a faulty CCTV camera located on Platform 2 of the station",
+            "how_was_the_individual_injured"        : "They had working unsafely from top cap of the single sided step ladder without having 3 points of contact with the ladder",
+            "what_was_the_cause_of_the_accident"    : "Unsafe platform for working",
+            "what_was_the_extent_of_injury"         : "Broken right arm and right eye injury",
+            "images"            : [
+                "./images/incident/inc2-a.jpg",
+                "./images/incident/inc2-b.jpg",
+                "./images/incident/inc2-c.jpg"
+            ]
+        },
+
+        {
+            "incident_id"            : 3,
+            "date"                   : "07-06-20",
+            "project"                : "Maidenhead",
+            "location"               : "Platform 1",
+            "weather_condition"      : "Wet, Rainy",
+            "group"                  : "Subcontractor staff",
+            "person_involved"        : "Samuel Johnson",
+            "contractor_involved"    : "Carpenters wood Ltd",
+            "reported_by"            :"James Wood",
+            "company"                : "Main Contractor Ltd",
+            "what_was_the_individual_doing"            : "Transferring electrical equipment from ground level of station building to 1st floor of staff offices",
+            "how_was_the_individual_injured"           : "As they had been transferring materials there was a plywoods lying on the floor a with a 6 inch nail sticking out. With his left foot operative had landed on the exposed nail",
+            "what_was_the_cause_of_the_accident"       : "Exposed 6 inch nail sticking out of plywood left on the ground in the middle of walkway",
+            "what_was_the_extent_of_injury"            : "Injury to the left foot",
+            "images"            : [
+                "./images/incident/inc3-a.jpg",
+                "./images/incident/inc3-b.jpg",
+                "./images/incident/inc3-c.jpg",
+                "./images/incident/inc3-d.jpg"
+            ]
+        },
+
+
+        {
+            "incident_id"            : 4,
+            "date"                   : "06-05-20",
+            "project"                : "Acton Mainline",
+            "location"               : "Platform 3",
+            "weather_condition"      : "Dry",
+            "group"                  : "Subcontractor staff",
+            "person_involved"        : "David Hanson, Sam Smith, Harry Dune",
+            "contractor_involved"    : "Groundworks Ltd",
+            "reported_by"            :"Daniel Well",
+            "company"                : "Main Contractor Ltd",
+            "what_was_the_individual_doing"            : "Excavating 2.5m deep to install geothermal pipes for new station building",
+            "how_was_the_individual_injured"           : "Site investigation has revealed that there was no temporary works design in place to allow operatives to safely excavate to this depth without propery excavation support",
+            "what_was_the_cause_of_the_accident"       : "Unsafe, unsupported, and exposed excavation sides caved into the 3no operatives working below",
+            "what_was_the_extent_of_injury"            : "All opertaives have recieved life changing injuries",
+            "images"            : [
+                "./images/incident/inc4-a.jpg",
+                "./images/incident/inc4-b.jpg",
+                "./images/incident/inc4-c.jpg"
+            ]
+        },
+
+
+        {
+            "incident_id"            : 5,
+            "date"                   : "04-05-20",
+            "project"                : "West Acton",
+            "location"               : "Platform 3",
+            "weather_condition"      : "Dry",
+            "group"                  : "Subcontractor staff",
+            "person_involved"        : "James Dean",
+            "contractor_involved"    : "Roofing Panels Ltd",
+            "reported_by"            : "Sam Burkans",
+            "company"                : "Main Contractor Ltd",
+            "what_was_the_individual_doing"            : "Installing external wall cladding sheets",
+            "how_was_the_individual_injured"           : "Standing above primary beams while harnessed to MEWP basket",
+            "what_was_the_cause_of_the_accident"       : "Operative have taken their initiative and disregarded safe system of work in place as agreed within the Risk Assessment and Method Statements (RAMS)",
+            "what_was_the_extent_of_injury"            : "Broken right arm, severe head injury",
+            "images"            : [
+                "./images/incident/inc5-a.jpg",
+                "./images/incident/inc5-b.jpg"
+            ]
+        }
+
+
+    
+
+    
+      
+      
+      
+    ]
+    
+}
+

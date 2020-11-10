@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Sans&family=Open+Sans&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/form_style.css">
+    <title>Observation form</title>
+
+  </head>
+<body>
+    
+
+      <div class="navbar-container">
+      
+        <nav class="navbar">
+    
+          <div class="hamburger-menu">
+            
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          
+          </div>
+        
+
+          <div class="nav-list">
+
+            <a href="./index.html" class="nav-item">
+              <span class="nav-icon"><i class="far fa-eye"> </i></span> 
+              <h1 class="nav-text">Observations</h1> 
+            </a>
+    
+            <a href="./incidents.html" class="nav-item">
+              <span class="nav-icon"><i class="fas fa-car-crash"></i></span>  
+              <h1 class="nav-text">Incidents</h1>
+            </a>
+    
+            <a href="./add-event.html" class="active">
+              <span class="nav-icon"><i class="fas fa-plus"></i></span> 
+              <h1 class="nav-text">Add-event</h1> 
+            </a>
+    
+    
+          </div>
+        
+        </nav> <!--Nav bar--> 
+    
+      </div> <!--Nav bar container--> 
+    
+      <header class="header">
+
+        <div class="nav-container">
+
+            <a href="./index.html" class="logo">
+            <img src="./images/00 Logo.png" alt="" class="logo-image">
+            </a>
+
+            <nav class="header-nav">
+
+                <a href="./index.html" class="header-link">   
+                    <span class="header-icon"><i class="far fa-eye"></i></span> 
+                    <h1 class="header-text">Observations</h1>
+                </a>
+
+                <a href="./incidents.html" class="header-link">   
+                    <span class="header-icon"><i class="fas fa-car-crash"></i></span> 
+                    <h1 class="header-text">Incidents</h1>
+                </a>
+
+
+                <a href="./add-event.html" class="active">   
+                    <span class="header-icon"><i class="fas fa-plus"></i></span> 
+                    <h1 class="header-text">Add Event</h1> 
+                </a>
+
+            </nav><!--Navigation links--> 
+
+        </div> 
+
+      </header>  <!--Main header container-->  
+
+      <div class="wrapper">
+        <div class="image-holder">
+          <img src="images/form-wizard.png" alt="">
+        </div>
+              <form action="">
+                <div id="wizard">
+                  <!-- SECTION 1 -->
+                    <h4></h4>
+                    <section>
+                                            
+                              <div class="form-row form-group">
+
+                                  <div class="form-holder">
+                                    <label for="location">Location</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                  <div class="form-holder">
+                                    <label for="project">Project</label>
+                                    <select name="company" id="" class="form-control">
+                                                      <option value="Acton Mainline">Acton Mainline</option>
+                                                      <option value="Ealing Broadway">Ealing Broadway</option>
+                                                      <option value="West Ealing">West Ealing</option>
+                                    </select>
+                                  </div>
+
+                              </div>	
+
+                              <div class="form-row form-group">
+
+                                          <div class="form-holder">
+                                            <label for="weather">Weather condition</label>
+                                            <input type="text" class="form-control">
+                                          </div>
+
+                                          <div class="form-holder">
+                                            <label for="date">Date</label>
+                                            <input type="date" class="form-control">
+                                          </div>
+                                          
+                              </div>	
+
+
+                              <div class="form-row">
+                                <label for="what_was_the_individual_doing">What was the individual doing?</label>
+                                <input type="text" class="form-control">
+                              </div>
+
+                              <div class="form-row">
+                                <label for="how_was_the_individual_injured">How was the individual(s) injured?</label>
+                                <input type="text" class="form-control">
+                              </div>
+
+                              <div class="form-row">
+                                <label for="what_was_the_cause_of_the_accident">What was the cause of the accident?</label>
+                                <input type="text" class="form-control">
+                              </div>
+
+                              <div class="form-row">
+                                <label for="what_was_the_extent_of_the_injury">What was the extent of the injury?</label>
+                                <input type="text" class="form-control">
+                              </div>
+                
+                             
+
+              
+                    </section>
+                    
+      
+  
+                    <!-- SECTION 2 -->
+                    <h4></h4>
+                    <section>
+
+                          <div class="form-row form-group">
+                                      <div class="form-holder">
+                                        <label for="person_injured">Person injured name</label>
+                                        <input type="text" class="form-control">
+                                      </div>
+                                      <div class="form-holder">
+                            <label for="company">Employer</label>
+                                            <select name="company" id="" class="form-control">
+                                              <option value="graham construction">Graham Construction</option>
+                                              <option value="ballycommon">Ballycommon</option>
+                                              <option value="levismar">Levismar</option>
+                              </select>
+                                      </div>
+                          </div>	
+
+                          <div class="form-row form-group">
+                            <div class="form-holder">
+                              <label for="location">Location</label>
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-holder">
+                                  <label for="project">Project</label>
+                                  <select name="company" id="" class="form-control">
+                                                    <option value="Acton Mainline">Acton Mainline</option>
+                                                    <option value="Ealing Broadway">Ealing Broadway</option>
+                                                    <option value="West Ealing">West Ealing</option>
+                                  </select>
+                            </div>
+                          </div>
+
+                          <div class="form-row form-group">
+                            <div class="form-holder">
+                              <label for="trade">Trade</label>
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-holder">
+                                  <label for="group">Group</label>
+                                  <select name="group" id="" class="form-control">
+                                                    <option value="graham staff">Graham Staff</option>
+                                                    <option value="Sub-contractor staff">Sub-contractor staff</option>
+                                                    <option value="third party">Third party (i.e. client or visitor)</option>
+                                                    <option value="members of the public">Members of the public</option>
+                                  </select>
+                            </div>
+                          </div>
+
+                          <div class="form-row form-group">
+                            <div class="form-holder">
+                              <label for="mobile number">Mobile number</label>
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-holder">
+                              <label for="date_of_birth">Date of birth</label>
+                              <input type="date" class="form-control">
+                            </div>
+                            
+                          </div>	
+
+                          <div class="form-row">
+              
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control">
+                          </div>	
+
+                          <div class="form-row">
+              
+                            <label for="post code">Post code</label>
+                            <input type="text" class="form-control">
+                          </div>	
+                         
+                    </section>
+  
+                    <!-- SECTION 3 -->
+                    <h4></h4>
+                    <section>
+
+                      <div class="form-row form-group">
+                        <div class="form-holder">
+                          <label for="person_completing_form">Person completing form</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="form-holder">
+                           <label for="company">Employer</label>
+                              <select name="company" id="" class="form-control">
+                                <option value="graham construction">Graham Construction</option>
+                                <option value="ballycommon">Ballycommon</option>
+                                <option value="levismar">Levismar</option>
+                              </select>
+                        </div>
+                      </div>	
+
+                      <div class="form-row">
+              
+                        <label for="mobile_number">Mobile number</label>
+                        <input type="text" class="form-control">
+                      </div>	
+
+                      <div class="form-row"> 
+              
+                        <label for="Induction">Has the injured person site induction and training been attached?</label>
+                          
+                        <div class="mini-radio">
+          
+                          <input type="radio" name="Induction" id="yes" checked>
+                          <label for="yes" class="small-radio-label" >
+                            <span>Yes</span>
+                          </label>
+          
+                          <input type="radio" name="Induction" id="no">
+                          <label for="no" class="small-radio-label" id="right-radio">
+                            <span>No</span>
+                          </label>
+                        </div>
+                      </div>
+
+                      <div class="form-row"> 
+              
+                        <label for="witness statement">Has the injured person witness statement been attached?</label>
+                          
+                          <div class="mini-radio">
+            
+                            <input type="radio" name="witness statement" id="yes-1" checked>
+                            <label for="yes-1" class="small-radio-label" >
+                              <span>Yes</span>
+                            </label>
+            
+                            <input type="radio" name="witness statement" id="no-1">
+                            <label for="no-1" class="small-radio-label" id="right-radio">
+                              <span>No</span>
+                            </label>
+
+                          </div>
+                      </div>
+
+
+                  
+                      
+
+
+                        <div class="form-row-last">
+                          <label for="file" class="upload-photo">
+                            <span>
+                              <i class="fas fa-camera-retro"></i>
+                              <i class="far fa-file-pdf"></i>
+                            </span>
+                              
+                              Upload documents
+                          </label>
+                           <input type="file" id="file">
+                        </div>	
+
+                    </section>
+                </div>
+              </form>
+      </div>
+
+
+
+<script src="./script/jquery-3.5.1.js"></script>
+<script src="./script/jquery.steps.js"></script>
+<script src="./script/form.js"></script>
+<script src="https://kit.fontawesome.com/3fc137f8f1.js" crossorigin="anonymous"></script>
+<script src="./script/script.js" ></script>
+</body>
+</html>

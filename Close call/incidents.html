@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Sans&family=Open+Sans&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/lightslider.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+   
+    <script src="./script/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/3fc137f8f1.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js></script>
+    <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+    <script src="./script/lightslider.js"></script>
+    <script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script> 
+   
+ 
+    <title>Incidents</title>
+
+</head>
+
+<body>
+    
+
+    <div class="navbar-container">
+      
+        <nav class="navbar">
+    
+          <div class="hamburger-menu">
+            
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          
+          </div>
+        
+
+          <div class="nav-list">
+
+            <a href="./index.html" class="nav-item">
+              <span class="nav-icon"><i class="far fa-eye"> </i></span> 
+              <h1 class="nav-text">Observations</h1> 
+            </a>
+    
+            <a href="./incidents.html" class="active">
+              <span class="nav-icon"><i class="fas fa-car-crash"></i></span>  
+              <h1 class="nav-text">Incidents</h1>
+            </a>
+    
+            <a href="./add-event.html" class="nav-item">
+              <span class="nav-icon"><i class="fas fa-plus"></i></span> 
+              <h1 class="nav-text">Add-event</h1> 
+            </a>
+    
+    
+          </div>
+        
+        </nav> <!--Nav bar--> 
+    
+    </div> <!--Hamburger Navigation bar container--> 
+    
+
+    <header class="header">
+
+        <div class="nav-container">
+
+            <a href="./index.html" class="logo">
+            <img src="./images/00 Logo.png" alt="" class="logo-image">
+            </a>
+
+            <nav class="header-nav">
+
+                <a href="./index.html" class="header-link">   
+                    <span class="header-icon"><i class="far fa-eye"></i></span> 
+                    <h1 class="header-text">Observations</h1>
+                </a>
+
+                <a href="./incidents.html" class="active">   
+                    <span class="header-icon"><i class="fas fa-car-crash"></i></span> 
+                    <h1 class="header-text">Incidents</h1>
+                </a>
+
+
+                <a href="./add-event.html" class="header-link">   
+                    <span class="header-icon"><i class="fas fa-plus"></i></span> 
+                    <h1 class="header-text">Add Event</h1> 
+                </a>
+
+            </nav><!-- Header navigation links--> 
+
+        </div> 
+
+    </header>  <!--Site header container-->  
+
+
+    <section class="canvas-section">
+      <div class="canvas_container">
+        <canvas id="indexChart"></canvas>
+    </section> <!--Canvas charts section container-->  
+
+      <section class="slider-section">
+
+        <div class="main-content">
+
+            <div class="top_slider">
+            </div><!--main image slider-->  
+               
+
+            <div class="content-details">
+
+
+                    <div class="card-row1">
+
+                      <div class="card-row-header">
+                        <h1 class="row-headline">Date</h1>
+                        <span class="row-content" id="date"></span>
+                      </div>
+
+                      <div class="card-row-header open">
+                        <h1 class="row-headline">Project</h1>
+                        <span class="row-content" id="project"></span>
+                      </div>
+
+                      <div class="card-row-header">
+                        <h1 class="row-headline">Location</h1>
+                        <span class="row-content" id="location"></span>
+                      </div>
+
+                      <div class="last-card-row-header">
+                        <h1 class="row-headline">Group</h1>
+                        <span class="row-content" id="group"></span>
+                      </div>
+                      
+
+                    </div><!--Row 1 container-->
+
+                    <div class="card-row2-x">
+                      <h1 class="mid-row-headline">What was the individual doing?</h1>
+                      <span class="mid-row-content" id="what_was_the_individual_doing"></span>
+                    </div>
+
+                    <div class="card-row2-x">
+                      <h1 class="mid-row-headline">How was the individual injured?</h1>
+                      <span class="mid-row-content" id="how_was_the_individual_injured"></span>
+                    </div>
+
+                    <div class="card-row2-x">
+                      <h1 class="mid-row-headline">What was the cause of the accident?</h1>
+                      <span class="mid-row-content" id="what_was_the_cause_of_the_accident"></span>
+                    </div>
+
+                    <div class="card-row2-x">
+                      <h1 class="mid-row-headline">What was the extent of the injury?</h1>
+                      <span class="mid-row-content" id="what_was_the_extent_of_injury"></span>
+                    </div> <!--Row 5 container-->
+
+
+
+            </div><!--Event details on right-->  
+
+
+        </div> <!--Top section. Images to the left and Event details to the right-->  
+        
+
+        <div class="btm_slider">
+
+          <div class="container">
+
+              <ul id="autoWidth" class="cs-hidden">
+
+                <li class="item-a">
+                  <div class="box" id="inc0">
+                     <img src="./images/incident/inc0-b.jpg" alt="">
+                  </div>
+                </li>
+
+                <li class="item-a">
+                  <div class="box" id="inc1">
+                      <img src="./images/incident/inc1-a.jpg" alt="">
+                  </div>
+                </li>
+
+                <li class="item-a">
+                  <div class="box" id="inc2">
+                      <img src="./images/incident/inc2-b.jpg" alt="">
+                  </div>
+                </li>
+
+                <li class="item-a">
+                  <div class="box" id="inc3">
+                      <img src="./images/incident/inc3-a.jpg" alt="">
+                  </div>
+                </li>
+
+                <li class="item-a">
+                  <div class="box" id="inc4">
+                      <img src="./images/incident/inc4-a.jpg" alt="">
+                  </div>
+                </li>
+
+                <li class="item-a">
+                  <div class="box" id="inc5">
+                      <img src="./images/incident/inc5-a.jpg" alt="">
+                  </div>
+                </li>
+
+              </ul> <!--Light slider plugin template--> 
+
+          </div>
+
+        </div> <!--Bottom image slider for selecting a different event-->  
+
+
+      </section> <!--Image slider section container-->  
+
+      
+      <section class="table-section">
+
+
+        <div class="main-table">
+
+          <table class="content-table" id="incidents_table">
+
+              <thead>
+                  <tr>
+                    <th class="column1">#</th>
+                    <th class="column2">Date</th>
+                    <th class="column3">Project</th>
+                    <th class="column4">Location</th>
+                    <th class="column5">Group</th> 
+                    <th class="column6">Person involved</th> 
+                    <th class="column7">Contractor involved</th>
+                    <th class="column8">Reported by</th>
+                    <th class="column9">Company</th>
+                  </tr>
+              </thead>
+
+          </table>
+
+        </div> <!--Table container--> 
+
+
+      </section> <!--Table section-->  
+
+
+
+      <footer class="footer" id="a3">
+
+        <a href="./index.html" class="footer-left">
+          <img src="./images/00 Logo.png" alt="">
+        </a>
+      
+      
+        <div class="footer-right">
+      
+            <h6>Take 5 and stay alive! </h6>
+      
+        </div>
+      
+      
+      </footer> <!-- footer section --> 
+      
+
+
+<script src="./script/script.js"></script>
+<script src="./script/data.js"></script>
+</body>
+
+</html>
